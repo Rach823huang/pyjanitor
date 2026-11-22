@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+-   [ENH] Add `winsorize` to cap extreme values in numeric columns at chosen lower and upper quantiles, keeping every row and any missing values. - PR #1 @Rach823huang
+
 ## [v0.32.81] - 2026-11-22
 
 -   [ENH] Add `read_archive` to read supported files from zip and tar archives with pandas or polars. Keyword arguments are passed through, and omitting `filenames` returns a dictionary of DataFrames. Based on work by @Sabrina-Hassaim in #1440. - Issue #1171, PR #1833 @ericmjl
