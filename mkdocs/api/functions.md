@@ -68,4 +68,5 @@
         - transform_columns
         - truncate_datetime
         - update_where
+        - winsorize
         - utils
